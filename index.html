@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <title>Udemy Clon</title>
+  <meta name="description" content="Universidad Udemy Clon, estudia el presente para enfrentar el futuro."/>
+  <link rel="stylesheet" href="app.css"/><script src="https://kit.fontawesome.com/080ce66068.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <h1 class="header__brand">Universidad</h1><a href="#"><img class="header__logo" src="img/logo.jpg"/></a>
+      <section class="cart"><img class="cart__logo" src="img/cart.png"/>
+        <div class="cart__details">
+          <table class="cart__products">
+            <thead class="cart__header">
+              <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+              </tr>
+            </thead>
+            <tbody class="card__items">
+              <tr class="cart__item">
+                <td class="cart__product-images"><img class="cart__product-image" src="img/curso1.jpg"/></td>
+                <td class="cart__product-description">CSS con Flexbox y Grid desde cero + 4 proyectos</td>
+                <td class="cart__product-price">$ 250.00</td>
+              </tr>
+            </tbody>
+          </table><a class="cart__clear-list" href="#">Limpiar carrito</a>
+        </div>
+      </section>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero__container">
+      <h2 class="hero__title">Aprende algo nuevo</h2>
+      <p class="hero__subtitle">Todos los cursos al 70% de descuento</p>
+      <form class="hero__form">
+        <input class="hero__input" type="text" placeholder="¿Que te gustaría Aprender?"/>
+        <button class="hero__submit" type="submit"></button>
+      </form>
+    </div>
+  </section>
+  <section class="bar">
+    <div class="bar__container">
+      <div class="bar__section">20,000 Cursos en línea <br/> Explora los temas más recientes</div>
+      <div class="bar__section">Instructores expertos <br/> Aprende con distintos estilos</div>
+      <div class="bar__section">Acceso de por vida <br/> Aprende a tu ritmo</div>
+    </div>
+  </section>
+  <section class="courses">
+    <div class="courses__container">
+      <h3 class="title-section">Cursos en linea</h3>
+      <article class="course"><img class="course__img" src="img/curso1.jpg"/>
+        <div class="course__info">
+          <h4 class="course__title">Curso de HTML, CSS y Javascript para principiantes</h4>
+          <p class="course__author">Juan Pedro Páramo Montes</p><img class="course__rankin" src="img/estrellas.png"/>
+          <ul class="course__price-list">
+            <li class="course__price-list__item">$ 175.00</li>
+            <li class="course__price-list__item">$ 160.00</li>
+          </ul><a class="course__add-cart" href="#">Añadir al carrito</a>
+        </div>
+      </article>
+      <article class="course"><img class="course__img" src="img/curso2.jpg"/>
+        <div class="course__info">
+          <h4 class="course__title">Curso de comida vegetariana</h4>
+          <p class="course__author">Analilia Miranda Páez</p><img class="course__rankin" src="img/estrellas.png"/>
+          <ul class="course__price-list">
+            <li class="course__price-list__item">$ 599.00</li>
+            <li class="course__price-list__item">$ 500.00</li>
+          </ul><a class="course__add-cart" href="#">Añadir al carrito</a>
+        </div>
+      </article>
+      <article class="course"><img class="course__img" src="img/curso3.jpg"/>
+        <div class="course__info">
+          <h4 class="course__title">Curso de guitarra profesional</h4>
+          <p class="course__author">Domingo Villada Bueno</p><img class="course__rankin" src="img/estrellas.png"/>
+          <ul class="course__price-list course__price-list--ofert">
+            <li class="course__price-list__item">$ 1500.00</li>
+            <li class="course__price-list__item">$ 999.00</li>
+          </ul><a class="course__add-cart" href="#">Añadir al carrito</a>
+        </div>
+      </article>
+      <article class="course"><img class="course__img" src="img/curso4.jpg"/>
+        <div class="course__info">
+          <h4 class="course__title">Como hacer un huerto casero</h4>
+          <p class="course__author">Miranda Castro Nieto</p><img class="course__rankin" src="img/estrellas.png"/>
+          <ul class="course__price-list">
+            <li class="course__price-list__item">$ 299.00</li>
+            <li class="course__price-list__item">$ 250.00</li>
+          </ul><a class="course__add-cart" href="#">Añadir al carrito</a>
+        </div>
+      </article>
+      <article class="course"><img class="course__img" src="img/curso5.jpg"/>
+        <div class="course__info">
+          <h4 class="course__title">Decoración para el hogar</h4>
+          <p class="course__author">Guillermina Romero Fuentes</p><img class="course__rankin" src="img/estrellas.png"/>
+          <ul class="course__price-list course__price-list--ofert">
+            <li class="course__price-list__item">$ 355.00</li>
+            <li class="course__price-list__item">$ 320.00</li>
+          </ul><a class="course__add-cart" href="#">Añadir al carrito</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__container">
+      <article class="footer__section">
+        <ul class="footer__items">
+          <li class="footer__item"><a class="footer__link" href="#">Para tu negocio</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Conviertete en instructor</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Aplicaciones móviles</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Soporte técnico</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Temas</a></li>
+        </ul>
+      </article>
+      <article class="footer__section">
+        <ul class="footer__items">
+          <li class="footer__item"><a class="footer__link" href="#">¿Quienes somos?</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Empleo</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Blog y comunicados</a></li>
+        </ul>
+      </article>
+    </div>
+  </footer>
+</body>
